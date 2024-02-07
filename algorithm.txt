@@ -1,1 +1,19 @@
-
+Set the initial balance to 212.90
+Ask the user for their name
+Greet the user, use the name from step one
+Output a choice menu "Would you like to D, W, B, or E."
+While not Q
+  If choice == "D"
+        a. Ask the user for amount using "How much would you like to deposit"
+        b. balance = balance + D
+        c. Output ("Your current balance is (balance) "dollars")
+    5. Otherwise If choice == "W"
+        a Ask the user for the amount using "How much would you like to withdraw"
+        b.if balance < W
+        i. print ("you have exceeded your balance")
+        ii. balance = balance - W
+        iii. Output ("Your current balance is (balance) "dollars"
+    6. Otherwise If choice == "B"
+        a. Output ("Your current balance is (balance) "dollars")
+    8. Ask the user what they want to do using "Would you like to Deposit, Withdraw, Check balace, or Exit."
+  Output("Thank you for using this program")
