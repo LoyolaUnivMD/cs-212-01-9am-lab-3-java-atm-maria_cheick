@@ -16,4 +16,12 @@ While not Q
     6. Otherwise If choice == "B"
         a. Output ("Your current balance is (balance) "dollars")
     8. Ask the user what they want to do using "Would you like to Deposit, Withdraw, Check balace, or Exit."
-  Output("Thank you for using this program")
+Ask user if they want their receipt printed or emailed "P or E"
+Output total amount deposited
+Output toal amount withdrawn
+Output thank you message
+Output balance
+If user chose P
+  remind user to take their receipt
+if user chose E
+  remind user to checktheir email for the receipt
